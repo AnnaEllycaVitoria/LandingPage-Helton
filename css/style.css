@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: #fcfdff; 
+    color: #100101;
+}
+
+
+header {
+    background-color: #1a237e; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+nav ul {
+    list-style: none; 
+    display: flex;
+    justify-content: center; 
+    gap: 25px;
+    margin-top: 15px;
+}
+
+li a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: 60;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fffb00;
+}
+
+
+aside{
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0px 10px #ffffff;
+}
+    
+
+
+h1 {
+    color: #ffffff; 
+    
+}
+
+h2 {
+    color: #1a237e; 
+    margin: 15px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 400px;   
+    height: auto;  
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+
+}
+
+
+button {
+    background-color: #1a237e;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px
+}
+
+
+aside, footer {
+    padding:20px;
+    text-align: center;
+
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #e3e4e8;
+    padding: 0px;
+}
+
+thead {
+    background-color: #1a237e;
+    color: rgb(255, 255, 255);
+}
+
+ul, li {
+    margin-left: 25px;
+    margin-bottom: 8px;
+}
+
+
+footer {
+    background-color: #1a237e;
+    color: white;
+    position: relative;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+}
+
+main {
+    padding: 0px 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fcfdff;
+}
+
+.disciplinasMain {
+    text-align: center;
+    color: #1a237e;
+    margin-bottom: 20px;
+}
+
+.ip {
+    padding: 10px;
+    max-width: 100px;
+    text-align: center;
+}
+
+
+.tituloDisciplina {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #3949ab;
+    margin-bottom: 10px;
+}
+
+.cargaHoraria {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+
+
+.nome_contato {
+    text-align: center;
+    color: #1a237e;
+    margin: 10px 0 20px 0;
+}
+
+.contatosemgeral {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.escrevecaoemail,
+.escrevecaotelefone {
+    font-weight: bold;
+    color: #131d8c;
+    margin-bottom: 5px;
+}
+
+
+
+
